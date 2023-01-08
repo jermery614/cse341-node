@@ -1,7 +1,3 @@
-// Local Host
-
-###
-
 GET http://localhost:8080/contacts
 
 ###
