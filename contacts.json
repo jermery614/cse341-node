@@ -1,0 +1,28 @@
+{
+
+    "contact": {
+        "firstName": "Libby",
+        "lastName": "Wheeler",
+        "email": "mom@awesome.com",
+        "favoriteColor": "Green",
+        "birthday": "07/28/1953"
+    },
+    "contact2": {
+        "firstName": "Anna",
+        "lastName": "Mohr",
+        "email": "wife@awesome.com",
+        "favoriteColor": "Purple",
+        "birthday": "08/15/1980"
+    },
+    "contact3": {
+        "firstName": "Matt",
+        "lastName": "Goodman",
+        "email": "friend@awesome.com",
+        "favoriteColor": "Blue",
+        "birthday": "08/18/1985"
+    }
+
+    
+
+
+}
