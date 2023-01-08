@@ -2,51 +2,37 @@
 
 ###
 
-GET
+GET http://localhost:8080/contacts
 
 ###
 
-GET
-
-
-
-
-###
-
-GET
-
-
+GET http://localhost:8080/contacts/63ba681b98d9e07211d23277
 
 
 ###
 
-GET
+GET http://localhost:8080/contacts/63ba681b98d9e07211d23278
 
+###
 
-
+GET http://localhost:8080/contacts/63ba681b98d9e07211d23279
 
 // Production
 
 ###
 
-GET
+GET https://cse341-lesson2-l4cx.onrender.com/contacts
 
+###
+
+GET https://cse341-lesson2-l4cx.onrender.com/contacts/63ba681b98d9e07211d23277
 
 
 ###
 
-GET
-
-
-
-
-###
-
-GET
-
-
+GET https://cse341-lesson2-l4cx.onrender.com/contacts/63ba681b98d9e07211d23278
 
 
 ###
 
-GET
+GET https://cse341-lesson2-l4cx.onrender.com/contacts/63ba681b98d9e07211d23279

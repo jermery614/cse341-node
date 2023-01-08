@@ -1,23 +1,24 @@
 {
-  "name": "cse341",
+  "name": "cse341L2",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "L2 Assignment",
+  "main": "app.js",
   "scripts": {
     "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
-    "start": "node server.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jermery614/cse341_project.git"
+    "url": "git+https://github.com/jermery614/cse341-node.git"
   },
   "author": "Jermery Wheeler",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jermery614/cse341_project/issues"
+    "url": "https://github.com/jermery614/cse341-node/issues"
   },
-  "homepage": "https://github.com/jermery614/cse341_project#readme",
+  "homepage": "https://github.com/jermery614/cse341-node#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongodb": "^4.13.0"
   },

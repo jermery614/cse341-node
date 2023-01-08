@@ -1,21 +1,21 @@
-const routes = require('express').Router();
+const express = require('express');
+const router = express.Router();
 
-routes.get('/', (req, res) => {
-    res.send('Anna Wheeler');
-});
+router.use('/contacts', require('./contacts'));
 
-routes.get('/test', (req, res) => {
-    res.send('Jermery Wheeler');
-});
+// routes.get('/', (req, res) => {
+//     res.send('Anna Wheeler');
+// });
 
-routes.get('/test2', (req, res) => {
-    res.send('Alexandra Wheeler');
-});
+// routes.get('/test', (req, res) => {
+//     res.send('Jermery Wheeler');
+// });
+// routes.get('/test2', (req, res) => {
+//     res.send('Alexandra Wheeler');
+// });
 
-routes.get('/test3', (req, res) => {
-    res.send('Chase Wheeler');
-});
+// routes.get('/test3', (req, res) => {
+//     res.send('Chase Wheeler');
+// });
 
-
-
-module.exports = routes; 
+module.exports = router; 
