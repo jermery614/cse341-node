@@ -1,3 +1,5 @@
+// Local Host
+###
 GET http://localhost:8080/contacts
 
 ###
@@ -32,3 +34,13 @@ GET https://cse341-lesson2-l4cx.onrender.com/contacts/63ba681b98d9e07211d23278
 ###
 
 GET https://cse341-lesson2-l4cx.onrender.com/contacts/63ba681b98d9e07211d23279
+
+//Lesson 3 additions
+
+###
+
+POST http://localhost:8080/contacts HTTP/1.1 content-type: application/json
+
+{
+"firstName": "Harry", "lastName": "Houdini", "email": "HarryIamGone@test.com", "favoriteColor": "Green", "birthday": "03/24/1874"
+}
