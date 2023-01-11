@@ -39,7 +39,7 @@ GET https://cse341-lesson2-l4cx.onrender.com/contacts/63ba681b98d9e07211d23279
 
 ###
 
-//Lesson 3 Start...
+//Lesson 3 Start.....................................................................................
 POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
 
@@ -55,6 +55,18 @@ content-type: application/json
 
 ###
 
+//Lesson 3 Start.....................................................................................
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+"firstName": "Chase",
+"lastName": "Wheeler",
+"email": "Chase.Wheeler@test.com",
+"favoriteColor": "Red",
+"birthday": "03/11/2008"
+}
+
 GET http://localhost:8080/contacts/  HTTP/1.1
 
 ###
@@ -63,14 +75,15 @@ GET http://localhost:8080/contacts
 
 ###
 
-PUT  http://localhost:8080/contacts/ HTTP/1.1
+// Local Host
+PUT http://localhost:8080/contacts/ HTTP/1.1
 Content-Type: application/json
 
 {
-    "firstName": "Chase",
+    "firstName": "Chastity",
     "lastName": "Wheeler",
-    "email": "Chase.Wheeler@test.com",
-    "favoriteColor": "Blue",
+    "email": "Chastity.Wheeler@test.com",
+    "favoriteColor": "Mauve",
     "birthday": "03/11/2008"
 }
 
