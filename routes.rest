@@ -79,7 +79,7 @@ GET http://localhost:8080/contacts  HTTP/1.1
 
 ###
 
-GET http://localhost:8080/contacts/ HTTP/1.1
+GET http://localhost:8080/contacts HTTP/1.1
 
 ###
 
@@ -118,7 +118,7 @@ content-type: application/json
 
 ###
 
-GET http://cse341-898f.onrender.com/contacts/ HTTP/1.1
+GET http://cse341-898f.onrender.com/contacts HTTP/1.1
 ###
 
 PUT http://cse341-898f.onrender.com/contacts/63c04a1b1cc10e5714a10158 HTTP/1.1
