@@ -5,7 +5,7 @@
     "description": "Contacts API",
     "version": "1.0.0"
   },
-  "host": "cse341-898f.onrender.com",
+  "host": "localhose: 8080",
   "basePath": "/",
   "schemes": [
     "https"
