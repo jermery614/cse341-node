@@ -1,6 +1,6 @@
 // Local Host
 ###
-GET https://localhost:8080/contacts
+GET http://localhost:8080/contacts
 
 ###
 
