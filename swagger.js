@@ -5,7 +5,7 @@ const doc = {
         title: 'My Contacts API',
         description: 'Contacts API',
     },
-    host: 'localhose: 8080',
+    host: 'localhost: 8080',
     schemes: ['http'],
 };
 
